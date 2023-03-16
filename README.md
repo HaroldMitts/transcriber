@@ -30,7 +30,7 @@ Yes, there are many other transcription services available and many are free or 
 
 ## Usage
 
-1. Install the OpenAI Python library:
+1. Install the OpenAI Python package:
 
     `pip install openai`
 
