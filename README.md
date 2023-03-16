@@ -2,6 +2,13 @@
 
 This is a simple script that transcribes multiple MP3 files to text using the OpenAI Whisper API.
 
+## Requirements
+
+1. Python 3.6 or higher
+2. Windows OS (I haven't tested it on other OS's)
+3. OpenAI API key 
+4. MP3 files to transcribe
+
 ## Usage
 
 1. Install the dependencies:
