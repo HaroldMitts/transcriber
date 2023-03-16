@@ -7,6 +7,7 @@ This is a simple script that transcribes multiple MP3 files to text using the Op
 1. Install the dependencies:
 
 `pip install openai`
+
 `pip install tkinter`
 
 2. Copy the script into your environment, including the `tape.sm.png` file.
