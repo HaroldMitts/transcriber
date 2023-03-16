@@ -17,4 +17,4 @@ This is a simple script that transcribes multiple MP3 files to text using the Op
 
 Screenshot of the GUI:
 
-![Screenshot of the GUI](https://github.com/HaroldMitts/transcriber/blob/main/screenshot.png)
+![Screenshot of the GUI](https://github.com/HaroldMitts/transcriber/blob/main/Screenshot.png)
