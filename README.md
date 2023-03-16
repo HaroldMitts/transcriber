@@ -34,7 +34,7 @@ Yes, there are many other transcription services available and many are free or 
 
     `pip install openai`
 
-2. Copy the script into your environment, including the `tape.sm.png` file.
+2. Copy the [script](https://github.com/HaroldMitts/transcriber/blob/main/tk-audio-text.py) into your environment, including the `tape.sm.png` file.
 
 3. Run the script
 
