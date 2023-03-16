@@ -30,11 +30,9 @@ Yes, there are many other transcription services available and many are free or 
 
 ## Usage
 
-1. Install the dependencies:
+1. Install the OpenAI Python library:
 
-`pip install openai`
-
-`pip install tkinter`
+    `pip install openai`
 
 2. Copy the script into your environment, including the `tape.sm.png` file.
 
