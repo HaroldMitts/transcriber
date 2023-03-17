@@ -5,9 +5,12 @@ from tkinter import filedialog
 import json
 
 # Load API key from keys.json
-with open("C:/tmp/keys.json", "r") as f:
+with open("C:/keys/keys.json", "r") as f:
     keys = json.load(f)
     openai.api_key = keys["openai_api_key"]
+
+def get_masked_api_key(api_key):
+    return api_key[:6] + "*" * (len(api_key) - 6)
 
 def show_instructions():
     # First set of instructions
@@ -15,6 +18,12 @@ def show_instructions():
     1. Select a folder containing 1 or more .mp3 files, using the "Start" button
     2. From the browse window, select a location and file name for the transcript, then click "Save"
     """
+
+    # Mask the API key
+    masked_api_key = get_masked_api_key(openai.api_key)
+
+    # Display the masked API key
+    api_key_info = f"\nMy OpenAI API key (partially masked): {masked_api_key}\n"
     
     # Second set of instructions
     instructions_2 = """Additional Information:
@@ -28,7 +37,9 @@ def show_instructions():
     """
     
     # Combine the instructions with a separator in between
-    instructions = instructions_1 + "\n\n" + instructions_2
+    #instructions = instructions_1 + "\n\n" + instructions_2
+    
+    instructions = instructions_1 + api_key_info + "\n" + instructions_2
     
     # Update the instruction_label widget with the instructions
     instruction_label.config(text=instructions)
