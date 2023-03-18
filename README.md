@@ -44,6 +44,10 @@ Screenshot of the GUI:
 
 ![Screenshot of the GUI](https://github.com/HaroldMitts/transcriber/blob/main/Screenshot.png)
 
+Screenshot of the GUI for translation version
+
+![Screenshot of the GUI for translation version](https://github.com/HaroldMitts/transcriber/blob/main/Translator-screenshot.png)
+
 **Update**: I have also added a version for use to translate and transcribe into English. After the API completes, it will open both the English and non-English text files. The translated text file will be named the same as the filename you specified, but with the suffix `_translated.txt`. 
 
 If you are not translating, its best to run the original version since the tranlation will incur additional API costs.
