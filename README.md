@@ -23,9 +23,9 @@ Yes, there are many other transcription services available and many are free or 
 
 ## Requirements
 
-1. Python 3.6 or higher
+1. Python 3.6 or higher [https://www.python.org](https://www.python.org)
 2. Windows OS (I haven't tested it on other OS's)
-3. OpenAI API key 
+3. OpenAI API key [https://platform.openai.com/account/api-keys](https://platform.openai.com/account/api-keys)
 4. MP3 files to transcribe
 
 ## Usage
