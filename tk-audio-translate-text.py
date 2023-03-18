@@ -34,6 +34,8 @@ def show_instructions():
     - The transcript will be saved in a text file with the extension .txt.
 
     The text file will open automatically when the transcription is complete.
+
+     *** IMPORTANT *** This version supports translation to English and will incur additional API costs.
     """
     
     # Combine the instructions with a separator in between
@@ -86,7 +88,7 @@ def transcribe_files():
 
 # Create a tkinter root window
 root = tk.Tk()
-root.title("Transcribe Audio Files to Text")
+root.title("Transcribe Audio Files to Text - with translation")
 
 # Create a label to display the instructions
 instruction_label = tk.Label(root, justify=tk.LEFT, padx=10, pady=10)
