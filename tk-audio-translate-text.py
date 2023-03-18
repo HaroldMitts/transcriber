@@ -95,7 +95,7 @@ instruction_label = tk.Label(root, justify=tk.LEFT, padx=10, pady=10)
 instruction_label.pack()
 
 # Load an image
-image = tk.PhotoImage(file="tape.sm.png")
+image = tk.PhotoImage(file="transcriber-translator-text.png")
 
 # Create a label to display the image
 image_label = tk.Label(root, image=image)
