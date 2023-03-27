@@ -34,6 +34,8 @@ def show_instructions():
     - The transcript will be saved in a text file with the extension .txt.
 
     The text file will open automatically when the transcription is complete.
+
+    Important: Make sure you audio file is not larger than 25Mb
     """
     
     # Combine the instructions with a separator in between
